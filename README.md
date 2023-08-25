@@ -21,7 +21,7 @@
 개인적인 학습용도로 사용하는 Repository입니다.
 
 ## 실행 가이드
-rabbitmq-server-3.12.3
+rabbitmq-server-3.12.3<br>
 dependency : otp_win64_25.1
 ```
 cd C:\Program Files\RabbitMQ Server\rabbitmq_server-3.12.3\sbin
