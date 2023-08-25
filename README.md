@@ -21,4 +21,14 @@
 개인적인 학습용도로 사용하는 Repository입니다.
 
 ## 실행 가이드
-미작성
+rabbitmq-server-3.12.3
+dependency : otp_win64_25.1
+```
+cd C:\Program Files\RabbitMQ Server\rabbitmq_server-3.12.3\sbin
+rabbitmq-plugins enable rabbitmq_management
+rabbitmq-server
+
+1. 제대로 시작이 안될시 관리자 권한으로 터미널 실행
+2. 같은 이름의 노드가 실행중일 수 있음 중지 후 재시작할것
+rabbitmq-service.bat stop
+```
