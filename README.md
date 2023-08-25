@@ -31,4 +31,6 @@ rabbitmq-server
 1. 제대로 시작이 안될시 관리자 권한으로 터미널 실행
 2. 같은 이름의 노드가 실행중일 수 있음 중지 후 재시작할것
 rabbitmq-service.bat stop
+3. stomp 적용을 위해 플러그인 설치
+rabbitmq-plugins enable rabbitmq_stomp
 ```
